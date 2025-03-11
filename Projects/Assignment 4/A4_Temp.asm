@@ -69,6 +69,8 @@ Continue:
    HexToDec:		    ;Converts Hex to Dec
 	    MOVLW   refTempInput
 	    MOVWF   num
+            BTFSC   num, 7
+	    NEGF    num
 	    MOVLW   100
    A1:	    INCF    i, F  ;A1 loop converts the 100s place of ref to dec
 	    SUBWF   num, F
@@ -89,6 +91,8 @@ Continue:
 	    CLRF    i
 	    MOVLW   measuredTempInput
 	    MOVWF   num
+	    BTFSC   num, 7
+	    NEGF    num
 	    MOVLW   100
    A2:	    INCF    i, F ;A2 loop converts the 100s place of measured to dec
 	    SUBWF   num, F
