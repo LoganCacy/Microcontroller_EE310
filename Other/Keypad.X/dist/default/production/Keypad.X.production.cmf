@@ -12,7 +12,8 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $build/default/production/Keypad.o
-absdata - 0 0 0 A0 1 1
+absdata - 0 0 0 36 1 1
+statement - 0 0 0 36A 1 1
 config CONFIG 4 300000 300000 A 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -32,11 +33,11 @@ BANK6 600-6FF 1
 BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
-CONST A0-1FFFF 1
+CONST 36A-1FFFF 1
 IDLOC 200000-20000F 1
 SMALLCONST 2000-FFFF 1
 SMALLCONST 12000-1FFFF 1
-CODE A0-1FFFF 1
+CODE 36A-1FFFF 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
@@ -59,7 +60,7 @@ BANK28 1C00-1CFF 1
 BANK29 1D00-1DFF 1
 BANK30 1E00-1EFF 1
 BANK31 1F00-1FFF 1
-BIGRAM A0-1FFF 1
+BIGRAM 36A-1FFF 1
 BIGSFR 3800-3FFF 1
 COMRAM 0-5F 1
 EEDATA 310000-3103FF 1
@@ -79,68 +80,68 @@ MEDIUMCONST 12000-1FFFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $build/default/production/Keypad.o
-0 absdata ABS >55:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-20 absdata ABS >72:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-22 absdata ABS >73:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-24 absdata ABS >74:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-26 absdata ABS >75:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-28 absdata ABS >76:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-2A absdata ABS >80:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-2C absdata ABS >81:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-32 absdata ABS >87:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-36 absdata ABS >94:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-38 absdata ABS >95:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-3A absdata ABS >96:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-3C absdata ABS >97:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-3E absdata ABS >98:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-40 absdata ABS >99:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-42 absdata ABS >100:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-44 absdata ABS >101:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-46 absdata ABS >102:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-48 absdata ABS >103:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-4A absdata ABS >106:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-4C absdata ABS >107:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-4E absdata ABS >108:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-50 absdata ABS >109:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-52 absdata ABS >110:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-54 absdata ABS >111:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-56 absdata ABS >112:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-58 absdata ABS >113:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-5A absdata ABS >114:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-5C absdata ABS >115:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-5E absdata ABS >118:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-60 absdata ABS >120:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-62 absdata ABS >121:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-64 absdata ABS >122:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-66 absdata ABS >123:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-68 absdata ABS >124:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-6A absdata ABS >125:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-6C absdata ABS >126:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-6E absdata ABS >127:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-70 absdata ABS >128:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-72 absdata ABS >129:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-74 absdata ABS >131:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-76 absdata ABS >132:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-78 absdata ABS >133:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-7A absdata ABS >134:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-7C absdata ABS >135:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-7E absdata ABS >136:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-80 absdata ABS >137:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-82 absdata ABS >138:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-84 absdata ABS >139:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-86 absdata ABS >140:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-88 absdata ABS >142:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-8A absdata ABS >143:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-8C absdata ABS >144:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-8E absdata ABS >145:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-90 absdata ABS >146:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-92 absdata ABS >147:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-94 absdata ABS >148:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-96 absdata ABS >149:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-98 absdata ABS >150:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-9A absdata ABS >151:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-9C absdata ABS >153:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
-9E absdata ABS >154:C:\Users\logan\MPLABXProjects\Keypad.X\Keypad.asm
+0 absdata ABS >56:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+20 absdata ABS >73:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+22 absdata ABS >74:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+24 absdata ABS >75:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+26 absdata ABS >76:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+28 absdata ABS >77:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+2A absdata ABS >81:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+2C absdata ABS >82:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+32 absdata ABS >88:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X\Keypad.asm
+300 statement ABS >8:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+302 statement ABS >9:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+304 statement ABS >10:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+306 statement ABS >11:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+308 statement ABS >12:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+30A statement ABS >13:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+30C statement ABS >14:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+30E statement ABS >15:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+310 statement ABS >16:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+312 statement ABS >17:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+314 statement ABS >20:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+316 statement ABS >21:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+318 statement ABS >22:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+31A statement ABS >23:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+31C statement ABS >24:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+31E statement ABS >25:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+320 statement ABS >26:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+322 statement ABS >27:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+324 statement ABS >28:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+326 statement ABS >29:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+328 statement ABS >32:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+32A statement ABS >34:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+32C statement ABS >35:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+32E statement ABS >36:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+330 statement ABS >37:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+332 statement ABS >38:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+334 statement ABS >39:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+336 statement ABS >40:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+338 statement ABS >41:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+33A statement ABS >42:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+33C statement ABS >43:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+33E statement ABS >45:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+340 statement ABS >46:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+342 statement ABS >47:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+344 statement ABS >48:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+346 statement ABS >49:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+348 statement ABS >50:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+34A statement ABS >51:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+34C statement ABS >52:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+34E statement ABS >53:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+350 statement ABS >54:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+352 statement ABS >56:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+354 statement ABS >57:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+356 statement ABS >58:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+358 statement ABS >59:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+35A statement ABS >60:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+35C statement ABS >61:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+35E statement ABS >62:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+360 statement ABS >63:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+362 statement ABS >64:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+364 statement ABS >65:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+366 statement ABS >67:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
+368 statement ABS >68:C:\Users\logan\Documents\GitHub\Microcontroller_EE310\Other\Keypad.X/HeaderFile.inc
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -153,7 +154,7 @@ $build/default/production/Keypad.o
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-__Hspace_0 A0 0 ABS 0 - -
+__Hspace_0 36A 0 ABS 0 - -
 __Hspace_1 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 60000A 0 ABS 0 - -
@@ -201,7 +202,7 @@ __Hcode 0 0 ABS 0 code -
 __Hdata 0 0 ABS 0 data -
 __Lcode 0 0 ABS 0 code -
 __Ldata 0 0 ABS 0 data -
-__Habsdata A0 0 ABS 0 absdata -
+__Habsdata 36 0 ABS 0 absdata -
 __S0 0 0 ABS 0 - -
 __S1 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
@@ -233,6 +234,7 @@ __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
 __Lspace_4 0 0 ABS 0 - -
+__Hstatement 36A 0 ABS 0 statement -
 __Ludata_bank0 0 0 ABS 0 udata_bank0 -
 __Ludata_bank1 0 0 ABS 0 udata_bank1 -
 __Ludata_bank2 0 0 ABS 0 udata_bank2 -
@@ -244,6 +246,7 @@ __Ludata_bank7 0 0 ABS 0 udata_bank7 -
 __Ludata_bank8 0 0 ABS 0 udata_bank8 -
 __Ludata_bank9 0 0 ABS 0 udata_bank9 -
 __H__absolute__ 0 0 ABS 0 __absolute__ -
+__Lstatement 0 0 ABS 0 statement -
 __Hudata_acs 0 0 ABS 0 udata_acs -
 __Ludata_acs 0 0 ABS 0 udata_acs -
 # %SPLITSTAB Section
